@@ -1,10 +1,10 @@
 # Get Out Aviation LLC — https://github.com/extremeshannon/getout
 # Static site (nginx). Theme: Old Glory (red, white, blue).
 #
-# Web listens on 0.0.0.0:8004. On VPS open firewall if needed, e.g.:
-#   sudo ufw allow 8004/tcp && sudo ufw reload
+# Web listens on 0.0.0.0:8005 (8003=HHIO, 8004=HooDoo API). On VPS open firewall if needed, e.g.:
+#   sudo ufw allow 8005/tcp && sudo ufw reload
 #
-# Local:  http://127.0.0.1:8004/
+# Local:  http://127.0.0.1:8005/
 # Loopback-only: docker compose -f docker-compose.yml -f docker-compose.local.yml up -d --build
 #
 # Dev:
@@ -17,4 +17,4 @@ services:
       dockerfile: docker/Dockerfile.web
     container_name: getout_web
     ports:
-      - "8004:80"
+      - "8005:80"
