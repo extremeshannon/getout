@@ -9,6 +9,9 @@
 #
 # Dev:
 #   docker compose up -d --build
+#
+# VPS (restart policy):
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 
 services:
   web:
