@@ -1,0 +1,7 @@
+# Bind web port to loopback only (no LAN/public access).
+# Usage: docker compose -f docker-compose.yml -f docker-compose.local.yml up -d --build
+
+services:
+  web:
+    ports: !override
+      - "127.0.0.1:8004:80"

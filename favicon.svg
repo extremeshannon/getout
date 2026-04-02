@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Get Out Aviation">
+  <rect width="32" height="32" fill="#3C3B6E"/>
+  <path fill="#B22234" d="M0 20h32v4H0zm0 8h32v4H0z"/>
+  <path fill="#fff" d="M0 24h32v4H0z"/>
+  <path fill="#fff" d="M8 6l1 3h3l-2.5 2 1 3L8 12l-2.5 2 1-3L4 9h3z"/>
+</svg>
